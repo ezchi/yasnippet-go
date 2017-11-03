@@ -1,12 +1,15 @@
-;;; yasnippet-go.el --- Yasnippets for Verilog
+;;; yasnippet-go.el --- Yasnippets for Go
 
 ;; Copyright (C)  2017 Enze Chi
 
-;; Author: Enze Chi
+;; Author: Enze Chi <enze.chi@gmail.com>
 ;; URL: https://bitbucket.org/ezchi/yasnippet-go.git
 ;; Package-Requires: ((yasnippet "0.8.0"))
+;; Version: 1.0
 
 ;;; Commentary:
+
+;; Everything should workout its self.
 
 ;;; Code:
 
