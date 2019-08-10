@@ -1,4 +1,0 @@
-#+Title: Go Snippets
-
-* Overview
-  Snippets for Go
