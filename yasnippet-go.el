@@ -1,36 +1,22 @@
 ;;; yasnippet-go.el --- Yasnippets for Go
 
-;; Copyright (C)  2017 Enze Chi
+;; Copyright (C)  2019 Enze Chi
 
 ;; Author: Enze Chi <enze.chi@gmail.com>
-;; Keywords: snippets
-;; Version 1.0.0
-;; Package-Requires: ((yasnippet "0.8.0"))
-;; URL: https://bitbucket.org/ezchi/yasnippet-go.git
-
-;; This program is free software; you can redistribute it and/or modify
-;; it under the terms of the GNU General Public License as published by
-;; the Free Software Foundation, either version 3 of the License, or
-;; (at your option) any later version.
-
-;; This program is distributed in the hope that it will be useful,
-;; but WITHOUT ANY WARRANTY; without even the implied warranty of
-;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-;; GNU General Public License for more details.
-
-;; You should have received a copy of the GNU General Public License
-;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
+;; Version 1.0.1
+;; Keywords: snippets, go
+;; URL: https://github.com/ezchi/yasnippet-go.git
 
 ;;; Commentary:
 
-;; Everything should workout its self.
+;; This package provides code snippets for Go language.
 
 ;;; Code:
 
 (require 'yasnippet)
 
-(defvar yasnippet-go-root
-  (file-name-directory (or load-file-name (buffer-file-name))))
+(defconst yasnippet-go-root
+  (file-name-directory (or load-file-name buffer-file-name)))
 
 ;;;###autoload
 (defun yasnippet-go-initialize ()
